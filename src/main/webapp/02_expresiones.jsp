@@ -8,11 +8,15 @@
 </head>
 <body>
 
-	<%
-String curso = "Java Web";
+<%
+	String curso = "Java Web";
+	String nombre = "Jaime";
 %>
 	<%=curso%>
 
+<br>
+<br>
+	<%=nombre%>
 
 
 </body>
