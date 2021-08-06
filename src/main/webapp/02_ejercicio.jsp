@@ -55,7 +55,7 @@
   <br>
   <br>
  
- 	<table border=1>
+  <table border=1>
 	<%
 	int filas = 3;
 	int columnas = 4;
@@ -69,7 +69,7 @@
 		out.println("</tr>");
 	}
 	%>
-	</table>
+  </table>
 	
 
 </body>
