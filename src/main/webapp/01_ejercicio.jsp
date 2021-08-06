@@ -17,6 +17,19 @@
 		out.println(i + "<br>");
 	}
  %>
+ 
+<%
+// Ejercicio : Imprimir los 10 primeros numeros
+
+	for(int i = 1; i<= 15; i++) {
+		System.out.println(i);
+		out.println(i);
+%>
+	<br>
+<%
+	} // end for
+%>
+ 
 
 </body>
 </html>
