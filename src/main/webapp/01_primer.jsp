@@ -12,6 +12,10 @@
 
 String mensaje = "Java Web";
 
+// Escribe en la consola
+System.out.print(mensaje);
+
+// Escribe en el browser
 out.println(mensaje);
 
 %>
