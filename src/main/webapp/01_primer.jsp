@@ -8,9 +8,12 @@
 </head>
 <body>
 
-	<%
+<%
+
 String mensaje = "Java Web";
+
 out.println(mensaje);
+
 %>
 
 </body>
