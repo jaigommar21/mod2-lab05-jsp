@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,19 +8,15 @@
 </head>
 <body>
 
+
 <%
-
-String mensaje = "Java Web";
-
-// Escribe en la consola
-System.out.print(mensaje);
-
-// Escribe en el browser
-out.println(mensaje);
-
 // Ejercicio : Imprimir los 10 primeros numeros
 
-%>
+	for(int i = 1; i<= 10; i++) {
+		System.out.println(i);
+		out.println(i + "<br>");
+	}
+ %>
 
 </body>
 </html>
