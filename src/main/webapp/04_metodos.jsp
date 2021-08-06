@@ -8,14 +8,18 @@
 </head>
 <body>
 
-Usando PI igual a <%=pi%>, el área del círculo<br>
-con un radio de 3 es  <%=area(3)%>
 <%!
-double area(double r) {
-   return r*r*pi;
-}
+	// Constante
+	final static double PI=3.14159;
+
+	// Metodo
+	double area(double r) {
+	   return r*r*PI;
+	}
 %>
-<%! final double pi=3.14159; %>
+
+Usando PI igual a <%=PI%>, el área del círculo<br>
+con un radio de 3 es  <%=area(3)%>
   
 
 </body>
