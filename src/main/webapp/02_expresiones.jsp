@@ -9,9 +9,11 @@
 <body>
 
 	<%
-String mensaje = "Java Web";
-out.println(mensaje);
+String curso = "Java Web";
 %>
+	<%=curso%>
+
+
 
 </body>
 </html>
