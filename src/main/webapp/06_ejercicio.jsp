@@ -12,7 +12,7 @@
  // Crear la clase pe.edu.tecsup.figuras.Rectangulo
  // que tenga el metodo calcularArea , 
  // que retorne el area de un rectangulo 
- // se debe ingresar los lados del rectangulo
+ // se debe configurar los lados del rectangulo
 
 
 %>
