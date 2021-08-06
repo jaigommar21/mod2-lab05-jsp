@@ -35,6 +35,20 @@
 	</table>
 
  
+ <table border=1>
+   <tr>
+<%
+	for(int i = 1; i<= 12; i++) {
+%>
+	<td><%=i%></td>
+<%
+	} // end for
+%>
+  </tr>
+ </table>
+ 
+ 
+ 
 
 </body>
 </html>
